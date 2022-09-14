@@ -1,0 +1,2 @@
+nombre="Preguntas"
+print(nombre)
