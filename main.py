@@ -24,5 +24,11 @@ if respuesta_1 == "b":
   print ("¡Correcto!")
 
 else:
-  print ("Intenta de nuevo")
+  print ("Incorrecto")
+
+
+  while respuesta_1 not in ("a", "b", "c", "d"): respuesta_1 = input ("debes selecionar a, b, c o d. Ingresa nuevamente tu respuesta: ")
+
+
+  
 
